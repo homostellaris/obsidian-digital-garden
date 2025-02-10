@@ -15,7 +15,7 @@ Either way, this site may include:
 - Musings
 - Rants
 # Who are you?
-You can learn more about me on the [[about\|about]] page.
+You can learn more about me on the [[About\|About]] page.
 # How did you make this site?
 Like anyone else my interests are varied so the topics covered will be broad. As I learn and create I make notes in my [Obsidian](https://obsidian.md/) vault which are private by default but occasionally I feel like sharing them.
 
