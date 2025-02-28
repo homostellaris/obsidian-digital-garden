@@ -266,13 +266,16 @@ body {
   --callout-title-padding: 0;
   --callout-title-size: inherit;
   --callout-content-padding: 0;
+
   * {
     font-family: "Bricolage Grotesque", sans-serif;
   }
+
   header h1 {
     font-size: 3rem;
     color: var(--color-slate-300);
   }
+
   h1,
   h2,
   h3,
