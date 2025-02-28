@@ -1,0 +1,156 @@
+---
+{"dg-publish":true,"permalink":"/specification-by-example/","tags":["book","review"]}
+---
+
+# Overview
+This book made me really want to try BDD but I've never had the opportunity to try it in anger. Its just too much of a hard-sell to organizations that aren't already bought in.
+
+Even putting that aside though it gave me an appreciation early on in my career for the importance and difficulty of aligning with stakeholders outside engineering in order to build the right thing.
+# Notes
+- BDD, story testing, acceptance test-driven development are all the same thing?
+- Key process patterns
+	- Specification by example
+	- Specifying collaboratively
+	- Illustrating with examples
+	- Refining the specification
+	- Specification with examples
+	- Automating validation without changing specifications
+	- Executable specifications.
+	- Validating frequently
+	- Evolving a system of living documentation
+- Terminology that makes sense, is not based on current trends, and reduces confusion.Key process patterns
+- Living documentation allows the team to discuss the potential impact of changes and allow refactoring with confidence.
+- Developers can deliver to test without it coming back and some do all the time. This is called low 'churn'. If the team does encounter a defect it's when tests go red during development. Never in test.
+- Improved alignment between analysis, development, and test means that issues do not come back from test.
+- Living documentation that's updated automatically with the code.
+- Building the product right and building the right product are two different things that are both required for success.
+- 'Just-in-time' documentation (necessary and sufficient?).
+- Works best for iterative and flow-based teams but has also worked for waterfall.
+- Creating automated tests from a specification is not good because it involves translation which can lead to a misinterpretation and ultimately rework.
+- Instead the specification itself should be executable. This way the exact thing that was agreed on is used to validate the behaviours of the system. There is no room for misinterpretation. This is achieved using tools like Gherkin.
+- Specifications should describe the __what__ not the __how__ with some key examples. If they describe the __how__ then they constrain developers and designers and stop them from using their talents. They may be able to implement the specification in a way that is superior to whomever wrote the spec.
+- The source of truth is the code but that is inaccessible to business users and time consuming to interpret. It is not conducive to the shared understanding necessary to avoid rework.
+- If the specification is validated frequently (executed with a BDD framework) then the team can be as confident in the specification as they are in the code and reap the benefits of an easy to read specification of the systems behaviour.
+- A living documentation system is a great benefit to business users, analysts, and support staff, as well as developers and testers.
+- When a specification is completed it needs to be merged with the rest of the completed specifications in a system that is easy to browse. This system is what delivers most of the long-term value of Specification by Example as it is quick to understand the behaviour of the system and the impact changes may have.
+- Specification by Example can be achieved using an acceptance-test-centric approach or a behaviour-specification-centric approach.
+- Automated tests are not the only way of preventing functional regression.
+- Tests can be documentation but then it's no longer accurate to call them tests.
+- Living documentation should be seen as a key deliverable / artifact. From this perspective certain actions are obviously justified such as version controlling specifications and devoting time to tech debt around automation of specification validation.
+- Page 39-41 applies to LiveObs.
+- Avoid jargon when trying to encourage process change.
+- Highlight problems and gently present incremental solutions.
+- Functional test automation is not the goal. Reliable, human-readable specifications are (living documentation).
+- Avoid up front sign-off of requirements.
+- If you must, sign-off scope not requirements.
+- Can monitor checks by seeing if the underlying code has changed when they break or vice versa.
+- Boomerangs.
+	- Stories that come back in other sprints.
+- If many classes have to be changed for a single bit of functionality then something is wrong.
+- Likewise one change in code should result in one change in tests.
+- Solitons stories up into tasks makes scope creep easier to identify.
+- Most clients present requirements as solutions. Good product developers push back to get to the root of the problem and design off of that.
+- "If you get the scope wrong, the rest is just painting the corpse."
+- "The formulation of a problem is often more essential than its solution." - __Albert Einstein__
+- The __Why__ and the __Who__.
+	- Ask these questions rather than provide solutions upfront. One company saved 100,000 euros on hosting by adding some accounts to a remote desktop server by taking a step back and answering these questions.
+- If you are struggling to define scope then think about the expected outputs of the system.
+- This approach has the unexpected side-effect of avoiding rework by getting business users involved at an earlier stage as they have something tangible to provide feedback on.
+- Putting a financial figure on the value of a feature is error-prone but may help to get business users involved.
+- One team did not bother with estimating stories once they became comfortable with the correct size for a story (__minimum marketable features__). They measured only lead time.
+- Extracting requirements rather than solutions.
+	- Ask the business users to fill out the "As a..." and "So that..." Parts of the user story and let developers fill out the "I would like..." part.
+	- Ask why something is useful to start a discussion without being too challenging.
+	- Ask what the business users would have to do without their suggested feature in order to understand the value.
+- Developers can advise on how to write automated checks in a way that reduces duplication.
+- BAs and testers can help write automated checks in a way that makes the intent clear.
+- Acceptance test driven development.
+- Specification workshops are not necessary for small changes to mature systems. Be necessary and sufficient.
+- Product owners should __prioritise__ but not __clarify__. Especially in projects that have a lot of stakeholders product owners can become bottlenecks. Once the next story is chosen the team should have the freedom to go out and seek __clarification__ from the stakeholders directly.
+- Some teams found it inefficient to attempt an entire story in a single sprint. Instead they had one person (usually a business analyst or a tester) who would do analysis a sprint in advance.
+- Each team must find the right balance between __preparation__ and __collaboration__.
+- Part of the team should work with stakeholders to prepare some examples up front.
+- Later other stakeholders should collaborate to add examples and refine the specification.
+- Preparing too much is bad as it produces overly complex specifications that are hard to understand and inhibit discussion. They should be seen as a brief.
+- Abstract acceptance criteria are bad. They are much more prone to misunderstanding than examples.
+- when the validation of the specification is automated someone has to interpret the abstract acceptance criteria into concrete test cases which can lead to misunderstandings.
+- Using yes/no answers to test cases can mask complexity and leave questions unanswered.
+- Illustrating with examples reduces ambiguities.
+- It is quicker to illustrate with examples than it is to implement something, but almost as effective at spotting holes in the specification.
+- Examples must use realistic data to expose edge cases. Obfuscated customer data is most preferable.
+- If you find there are too many examples or the examples are convoluted, try moving them to a higher level of abstraction and defining the underlying concept explicitly.
+- Nonfunctional requirements can be seen as cross-cutting functional requirements.
+- Using a consistent set of examples all the way through analysis, development, and testing reinforces a shared understanding. If an example is set in the specification then it should become an automated check.
+- Non-functional requirements can and should be different for each story, otherwise resources may be wasted improving the performance of pages that users aren't so concerned about.
+- Use the QUPER model to identify cost-value breakpoints.
+- Time invested on specification should be proportionate to the business value of the story.
+- Test the clarity of a specification by seeing if someone else can understand it without you having to say anything.
+- Add plain English descriptions in the header and summarise the intent in the title by putting what you would for a search query for the specification in Google.
+- Keep specifications clean by only mentioning key attributes and using sensible defaults for all other attributes in the automation layer.
+- Account for technical workarounds in the automation layer not in the specification.
+- Be wary of any terms or concepts that seem to exist only for test or development. Specifications are business documents and should use domain language.
+- Enforce __Ubiquitous Language__ to avoid translation between business and technical users.
+- A refined specification with examples is a satisfactory target for implementation and an objective measure of when development is finished.
+- When automating validation the specifications should not change of change very little otherwise the value of refining specifications is lost. The subtleties fleshed out with the stakeholders can easily be lost in translation!
+- Expect a drop in productivity when beginning automation of validation. Plan the time into the sprint.
+- Create a separate product backlog for the automation work and bring some into every sprint.
+- The wording of specifications should not change just because they are made executable.
+- Automation of user interface does not scale well. When building the automation layer ensure it will be easy to switch to testing underneath the user interface later.
+- Automation layer code is just as important as production code.
+- Living documentation outlives production code. It is essential when rewriting an application using new technologies.
+- Record and replay user interface automated tests are really bad for specification by example because they are very difficult to read which makes them unsuitable for producing living documentation. They are also very brittle.
+- Setting up data using lower level calls is a good way to optimise tests (not sure if I agree with this).
+- Developer can automate the happy path and setup the data then hand over to a tester to add all the other test cases.
+- Prepopulated data is bad but prepopulated reference data can be helpful.
+- Make the context as lean as possible to keep the specifications clean and readable. Do not clutter with unnecessary object setup.
+- 'Nuke and pave' setup worked for some teams.
+- Pull properties from real databases worked for some teams with complex domains.
+- Stable tests are essential.
+- Need to be able to validate specific parts of the system for quick feedback.
+- A dedicated test environment prevents other factors from affecting the tests so that when a test fails you know it's failed for a legitimate reason.
+- Use test fail history to identify areas that regularly break so you can focus efforts to improve tests.
+- Fully automated deployment avoids "works on my machine" issues.
+- Multi stage validation allows many interdependent teams to work together because one team breaking their tests will not break the development tests of other teams, only integration.
+- Don't run end-to-end validations, prefer running focused functional acceptance tests with separate technical tests to validate all components are talking to each other (not sure if I agree with this).
+- Automate below the skin in things are taking longer (I'd rather keep live-like tests and reduce time with parallelization).
+- Run tests that provide quick feedback first.
+- Move tests with a good pass history into overnight test packs.
+- Parallelize builds using cloud services.
+- Run tests that relate to the current development first.
+- Use tags to omit WIP tests.
+- Language needs to be consistent throughout executable specifications.
+- Create a dictionary of __building blocks__.
+- Organise specifications into hierarchies.
+- Top-level can be split into __feature sets__, __current iteration__ and, __known regression issues__.
+- Organise in a way that makes it easy to run validation of a whole area at once.
+- Can organise to mirror UI navigation of have hierarchy of requirements match heirarchy of specifications.Use cases
+- Case studies
+	- uSwitch
+		- Got rid of the tester role to signify that quality is everyone's problem.
+		- Developers doing exploratory and looking at real usage data to write AC.
+		- Focused on improving quality one small thing at a time.
+		- Stopped running tests for stable features once the feedback got too long. Can run then in development still.RainStor
+		- Tests are part of the product.IOWA student loans company
+		- Focused on personas to improve tests and make them more business-user-friendly.
+		- Living documentation allowed them to implement a large new requirement with lots of refactoring in a month.
+		- Using the wrong entry point to their tests meant a lot of manual setup and __fantasy state__ which led to incorrect test results. Switching to live-like setup that leveraged the application eliminated this.Sabre Airline Solutions
+		- SBE facilitated collaboration between developers, testers, and business users.
+		- They trialled it on a small project first and built a core group of SBE advocates.
+		- Teams that delivered end-ti-end features were more successful.
+		- Testers and developers wrote better tests together.
+		- They had a few integration tests for third parties but mocked them in all other acceptance tests.ePlan Services
+		- Test automation was necessary because manual testing took too long.
+		- They over-specified tests which made it difficult for developers to use them as targets.
+		- They started treating them as specifications rather than tests and this helped.
+		- The real value was the cultural change that resulted from using SBE. The value was improved communication across disciplines.
+		- Living documentation was a helpful way to capture specialist knowledge.SongKick
+		- Focused on user interface details in executable specifications made their test brittle. Once they pushed them down to the automation layer and used higher-level business language in the specifications this improved.
+		- Developers write specifications and testers review them and advise on what can be added.Concluding thoughts
+	- Collaboration on requirements builds trust between
+	- stakeholders and delivery team members * Trust removes bureaucracy which improves efficiency.
+	- Collaboration requires preparation
+		- 2-step process. Initial examples should be collected so there is something to discuss at a subsequent larger workshop.There are many different ways to collaborate
+		- Cut down size of collaborative workshops as necessary.Looking at the end goal as business process documentation is a useful model
+		- Automation is not the goal, documenting of business processes is.
+		- Living documentation is technology agnostic which means a business can be agile and refactor with confidence.Long-term value comes from living documentation
+		- The value of the business is in the documentation of how it works. The code could be deleted but if we still had the living documentation it would be a case of reimplementing it. If the living documentation was lost there would be no easy route back, no-one would no what to implement.
