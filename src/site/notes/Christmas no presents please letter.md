@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/christmas-no-presents-please-letter/","tags":["lovenestadministrationdepartment"]}
+{"dg-publish":true,"permalink":"/christmas-no-presents-please-letter/"}
 ---
 
 Dear loved ones,

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/schedule-your-social-database-migrations-and-monetisation/","tags":["scheduleyoursocial","marketing","database","buildinpublic"]}
+{"dg-publish":true,"permalink":"/schedule-your-social-database-migrations-and-monetisation/","tags":["scheduleyoursocial","marketing","database","buildinpublic"],"created":"2025-03-26"}
 ---
 
 I've tried several ways to monetise Schedule Your Social without success.

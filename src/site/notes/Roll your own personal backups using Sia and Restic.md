@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/roll-your-own-personal-backups-using-sia-and-restic/","tags":["tech"]}
+{"dg-publish":true,"permalink":"/roll-your-own-personal-backups-using-sia-and-restic/","tags":["tech","backup"]}
 ---
 
 > 🚧 Work in progress.
