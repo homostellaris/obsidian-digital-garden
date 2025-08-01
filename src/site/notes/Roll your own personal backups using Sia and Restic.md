@@ -2,8 +2,11 @@
 {"dg-publish":true,"permalink":"/roll-your-own-personal-backups-using-sia-and-restic/","tags":["tech","backup"]}
 ---
 
-> 🚧 Work in progress.
+I've found Sia to be far too unstable. Since running the renter desktop app I've encountered about 10 issues, all of which have eventually been solved by an update (so not user error). I really want to support the project because it can offer great redundancy and cost efficiency but I don't have time to be constantly on their Discord working to diagnose issues.
 
+I've therefore moved to Wasabi as its well-recommend and S3 compatible so barely any tweaks to my backup scripts needed. I may try Sia again in future.
+
+---
 I have managed to get very cheap (will give a more accurate number later but about 3 dollars per terabyte) highly redundant backups of my personal data using the decentralised Sia network to backup my encrypted Restic repos.
 
 I will make this guide much more comprehensive when the dust has settled and I have time but at a high-level the steps are:
