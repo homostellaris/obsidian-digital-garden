@@ -9,8 +9,8 @@ I'm a software product creator who aspires to build things that are both useful 
 You can checkout my [GitHub profile](https://github.com/homostellaris) to see my work but here are a few quick links.
 
 - [Starfocus](https://www.starfocus.app/)
+- [Banerry](https://www.banerry.app)
 - [Schedule Your Social](https://scheduleyour.social/)
-- [Seshy](https://chrome.google.com/webstore/detail/seshy/noeieddjehppejohbbchbcmheecaneac?hl=en-GB)
 
 # Personality
 
