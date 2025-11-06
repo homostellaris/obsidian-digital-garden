@@ -30,7 +30,7 @@ I particularly like habit 5.
 
 The principle of [most respectful interpretation](https://fs.blog/most-respectful-interpretation/) is very important to me.
 
-I am a passionate advocate of [Effective Altruism](https://www.effectivealtruism.org/). It provides a guiding framework for my endeavours and I would like it to do the same for others. I'm particulary interested in **Longtermism** which considers the lives of those who _may_ exist in the future to be of similar or equivalent value compared with the lives of those who already exist. There is [a great Kurzegstat video on YouTube about this](https://www.youtube.com/watch?v=LEENEFaVUzU).
+I am a passionate advocate of [Effective Altruism](https://www.effectivealtruism.org/). It provides a guiding framework for my endeavours and I would like it to do the same for others. I'm particularly interested in **Longtermism** which considers the lives of those who _may_ exist in the future to be of similar or equivalent value compared with the lives of those who already exist. There is [a great Kurzegstat video on YouTube about this](https://www.youtube.com/watch?v=LEENEFaVUzU).
 
 # Dream
 
@@ -52,7 +52,7 @@ If we are truly unique then we have a moral duty to preserve the 'light of consc
 
 The difference between a universe brimming with life and one that is dead is almost impossible to comprehend so I take this mission very seriously and would like more people to do the same.
 
-As a software engineer there are limts to have much I can contribute to this mission directly. It may be that the best way for me to do this is to [promote Effective Altruism](https://80000hours.org/problem-profiles/promoting-effective-altruism/) and dreams of becoming a multiplanetary species to others who are better able to move the needle on this probability than I am 🚀
+As a software engineer there are limits to how much I can contribute to this mission directly. It may be that the best way for me to do this is to [promote Effective Altruism](https://80000hours.org/problem-profiles/promoting-effective-altruism/) and dreams of becoming a multi-planetary species to others who are better able to move the needle on this probability than I am 🚀
 
 # Hobbies & interests
 
@@ -60,9 +60,7 @@ I agree with Richard Feynman’s sentiment that “anything is interesting if yo
 
 - Parenting! 👪
 - Hacking on hobby projects 🧑‍💻
-- Playing guitar 🤘
-- Playing & watching StarCraft 2 ⌨️
-- Bouldering 🧗
+- Training Muay Thai 🥋
 
 Some topics of particular interest to me are Artificial Intelligence, Astrophysics, Astrobiology, Effective Altruism (particularly Longtermism), and Space Colonisation. I also enjoy creating and debating _absurd hypotheticals_.
 
