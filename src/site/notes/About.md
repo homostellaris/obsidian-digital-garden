@@ -11,6 +11,13 @@ You can checkout my [GitHub profile](https://github.com/homostellaris) to see my
 - [Starfocus](https://www.starfocus.app/)
 - [Banerry](https://www.banerry.app)
 - [Schedule Your Social](https://scheduleyour.social/)
+# Inspirations
+I have many but here are a few that spring to mind.
+
+- [SpaceX](https://www.spacex.com/)
+- [Colossal](https://colossal.com/)
+- [Tesla](https://www.tesla.com/)
+- [Vercel](https://vercel.com)
 
 # Personality
 
