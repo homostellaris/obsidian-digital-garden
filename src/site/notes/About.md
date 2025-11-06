@@ -58,7 +58,7 @@ As a software engineer there are limits to how much I can contribute to this mis
 
 I agree with Richard Feynman’s sentiment that “anything is interesting if you go into it deeply enough”. However I spend most of my free time:
 
-- Parenting! 👪
+- Raising my two beautiful children 💕
 - Hacking on hobby projects 🧑‍💻
 - Training Muay Thai 🥋
 
