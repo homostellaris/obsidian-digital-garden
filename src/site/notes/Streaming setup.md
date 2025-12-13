@@ -8,7 +8,7 @@ The reason I went with this setup is to 'have the best of both worlds' in terms 
 
 That being said the streaming setup has often been a pain in the ass causing me to spend time investigating various issues. The aim of this page is to document the steps taken to help others with the nuances.
 # Options explored
-## Steam Link (hardware)
+## [[Steam Link\|Steam Link]] (hardware)
 - Can't do 4k
 - Controller doesn't work sometimes 
 ## [[Moonlight on WebOS\|Moonlight on WebOS]]

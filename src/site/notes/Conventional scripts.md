@@ -1,0 +1,23 @@
+---
+{"dg-publish":true,"permalink":"/conventional-scripts/"}
+---
+
+- dev
+	- Starts dev server
+- typecheck
+	- Static type checking
+- lint
+	- Static code quality checking 
+- unit
+	- These tests should run very quickly to provide the tightest feedback loop possible every time you save. They should therefore stub all I/O.
+- integration
+	- These tests aim to be more live-like and do not need to stub I/O. They should intentionally trade-off speed to provide confidence the right thing is being shipped.
+- test
+	- If this exits 0 then you can push.
+	- typecheck && lint && unit && integration
+- build
+	- Produces a deployable optimised for production. May involve minification and transpilation.
+- start
+	- Runs the production build.
+- deploy
+	- Deploys the production build.
