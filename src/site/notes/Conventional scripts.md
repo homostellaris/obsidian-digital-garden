@@ -6,15 +6,19 @@ There are many conventions used for package JSON scripts which makes it harder t
 # Example
 
 ```json
-"dev": "next dev",
-"typecheck": "tsc --noEmit",
-"lint": "eslint",
-"unit": "bun test",
-"component": "cypress run --component",
-"integration": "start-server-and-test cypress run",
-"test": "typecheck && lint && unit && integration",
-"build": "next build",
-"start": "next start"
+{
+  "scripts": {
+    "dev": "next dev",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint",
+    "unit": "bun test",
+    "component": "cypress run --component",
+    "integration": "start-server-and-test cypress run",
+    "test": "typecheck && lint && unit && integration",
+    "build": "next build",
+    "start": "next start" 
+  }
+}
 ```
 
 # Scripts
